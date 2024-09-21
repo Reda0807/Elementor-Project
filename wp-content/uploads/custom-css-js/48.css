@@ -1,0 +1,22 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.animate-bg {
+	background-image: url(http://localhost/wp-content/uploads/2024/09/BgExperts.png);
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+	animation: 10000s linear infinite slideBackground;
+	width: 100%;
+}
+
+@keyframes slideBackground {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: -3000% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}</style>
+<!-- end Simple Custom CSS and JS -->
